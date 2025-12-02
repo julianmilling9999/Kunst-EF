@@ -131,6 +131,14 @@ footer {
 }
 
 .impressum-content h2 {
+    font-size: 2.0rem; /* Etwas größer */
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px; /* Mehr Abstand */
+    color: var(--color-text-dark);
+    border-bottom: 1px solid var(--color-text-light); /* Subtile Trennlinie */
+    padding-bottom: 10px;
+}
     font-size: 1.8rem;
     font-weight: 700;
     margin-top: 0;
@@ -139,6 +147,12 @@ footer {
 }
 
 .impressum-content h3 {
+    font-size: 1.3rem; /* Etwas größer */
+    font-weight: 700; /* Stärkerer Fokus */
+    margin-top: 40px; /* Mehr Abstand nach oben */
+    margin-bottom: 15px;
+    color: var(--color-text-dark);
+}
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 30px;
@@ -147,6 +161,12 @@ footer {
 }
 
 .impressum-content p {
+    margin-bottom: 20px; /* Mehr Zeilenabstand */
+    padding-left: 15px; /* Leichter Einzug für die Absätze */
+    border-left: 3px solid var(--color-accent); /* Akzentuierte linke Linie */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
     margin-bottom: 15px;
 }
 
@@ -169,8 +189,16 @@ footer {
 .impressum-content ul {
     list-style: none;
     padding: 0;
+    margin-bottom: 20px;
+}
+    list-style: none;
+    padding: 0;
 }
 
 .impressum-content li {
+    margin-bottom: 8px;
+    padding-left: 15px;
+    border-left: 3px solid var(--color-accent);
+}
     margin-bottom: 5px;
 }
